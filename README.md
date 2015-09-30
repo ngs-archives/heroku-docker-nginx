@@ -11,7 +11,7 @@ Initialize your app
 -------------------
 
 ```sh
-$ echo 'web: service nginx start' > Procfile
+$ echo 'web: ./nginx-start.sh' > Procfile
 $ mkdir www
 $ echo '<html><body><h1>It works</h1></body></html>' > www/index.html
 $ heroku docker:init --image atsnngs/heroku-nginx
