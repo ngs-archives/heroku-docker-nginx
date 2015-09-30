@@ -4,7 +4,7 @@ Heroku nginx Docker Image
 You need to install [Heroku Docker CLI plugin].
 
 ```sh
-$ heroku plugin:install heroku-docker
+$ heroku plugins:install heroku-docker
 ```
 
 Initialize your app
